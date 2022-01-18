@@ -2,10 +2,15 @@
   "name": "trello-import-cards",
   "version": "0.1.0",
   "description": "Script to import cards into trello",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "node-fetch": "^3.1.1"
+  }
 }
